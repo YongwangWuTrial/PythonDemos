@@ -11,3 +11,6 @@ class User(None):
         if not other.isinstance(User):
             return None
         return self.age < other.age
+
+    def print_user(self):
+        print(self.__str__())
